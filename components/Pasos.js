@@ -31,6 +31,7 @@ const Pasos = () => {
             }}
             className="text-2xl font-bold"
             key={paso.paso}
+            type="button"
           >
             {paso.nombre}
           </button>

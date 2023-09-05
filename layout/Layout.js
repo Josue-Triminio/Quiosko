@@ -50,7 +50,18 @@ export default function Layout({ children, pagina }) {
         </Modal>
       )}
 
-      <ToastContainer />
+        <ToastContainer
+        position="top-right"
+        autoClose={850}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        />
     </>
   );
 }

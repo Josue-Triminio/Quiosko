@@ -93,7 +93,7 @@ const QuioscoProvider = ({children}) => {
 
             setTimeout(() => {
                 router.push('/')
-            }, 3000)
+            }, 500)
 
         } catch (error) {
             console.log(error)
